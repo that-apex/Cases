@@ -1,0 +1,37 @@
+drops:
+  case1:
+    # Name of the case
+    name: '&6Bla bla'
+
+    # Description of the case
+    description:
+    - 'Some description'
+
+    # Message to be broadcasted after a case is opened
+    message:
+     - '&aPlayer &6%player%&a open a case &6%case%&a and got: '
+     - '- %drop%'
+
+    # Allow empty drops
+    empty_drops: true
+
+    # Name for an empty drop
+    nothing: 'Nothing'
+
+    # Drops from this case
+    loots:
+      dirt:
+        amount: 10
+        percent: 90
+        message: '&c10x &6Awesome dirt'
+      beacon:
+        amount: 1
+        percent: 10
+        message: '&cSome beacon'
+      diamond_sword:
+        amount: 1
+        percent: 10
+        name: '&6Test'
+        message: '&cSome sword'
+        enchants:
+        - 'DAMAGE_ALL:4'

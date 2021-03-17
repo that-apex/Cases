@@ -1,0 +1,9 @@
+name: 'Cases'
+version: '${project.version}'
+author: 'MrGregorix'
+main: 'net.mrgregorix.plugins.cases.CasesPlugin'
+commands:
+  givecase:
+    description: 'Gives a case to a player'
+    usage: "/givecase <name of the case> [how many] [player"s name]"
+
